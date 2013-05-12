@@ -1,4 +1,11 @@
-express-passport-i18n
-=====================
+# Express 3, EJS, Mongoose, Passport, i18n-abide Bootstrap demo app
 
-Express 3, Passport, EJS, Mongoose, i18N Bootstrap demo app
+#Install
+	`npm install`
+
+#Run 
+	`nodemon server.js`
+
+
+
+
