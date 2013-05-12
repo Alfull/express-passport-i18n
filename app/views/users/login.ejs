@@ -1,0 +1,32 @@
+<% layout('../default') %>
+  <div class="row">
+    <div class="offset1 span5">
+      <a href="/auth/facebook"><img src="/img/facebook.png"></a>
+      <a href="/auth/github"><img src="/img/github.png"></a>
+      <a href="/auth/twitter"><img src="/img/twitter.png"></a>
+      <a href="/auth/google"><img src="/img/google.png"></a>
+    </div>
+    <p class="error"><%= gettext(message) %></p>
+    <div class="span6">
+      <form action="/users/session" method="post" class="login form-horizontal">
+        <p class="error"></p>
+        <div class="control-group">
+          <label for="email" class="control-label">Email</label>
+          <div class="controls">
+            <input id="email" type="text" name="email" placeholder="Email">
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="password" class="control-label">Password</label>
+          <div class="controls">
+            <input id="password" type="password" name="password" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Login</button>&nbsp;
+          <%= gettext("Or") %>&nbsp;
+          <a href="/signup" class="show-signup"><%= gettext("Sign up") %></a>
+        </div>
+      </form>
+    </div>
+  </div>

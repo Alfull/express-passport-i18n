@@ -1,0 +1,30 @@
+# English translations for sf package.
+# Copyright (C) 2013 THE sf'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the sf package.
+# edgar <eorozco@bixit.mx>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sf 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-24 09:50+0200\n"
+"PO-Revision-Date: 2013-05-11 02:33-0500\n"
+"Last-Translator: edgar <eorozco@bixit.mx>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/workspace/sf2/example/app/views/users/login.ejs:27
+msgid "Or"
+msgstr "Or"
+
+#: /home/workspace/sf2/example/app/views/users/login.ejs:28
+msgid "Sign up"
+msgstr "Sign up"
+
+#: /home/workspace/sf2/example/app/views/default.ejs:39
+msgid "Logout"
+msgstr "Logout"
