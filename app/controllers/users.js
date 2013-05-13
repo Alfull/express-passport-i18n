@@ -20,7 +20,7 @@ exports.login = function (req, res) {
   var flashError = req.flash('error');
   res.render('users/login', {
     title: 'Login',
-    message: req.flash('error')
+    message: req.gettext(flashError)
   })
 }
 
